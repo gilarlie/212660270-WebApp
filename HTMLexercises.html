@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #dddddd;
+        }
+
+        li {
+            float: left;
+            font-size: 20px;
+        }
+
+        li a {
+            display: block;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- navbar -->
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- content -->
+    <div class="container">
+        <img src="https://i.pinimg.com/736x/ee/79/67/ee7967f150668fa76e93855b62d60d43.jpg" alt="">
+        <form action="/action_page.php">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" value=""><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" value=""><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="checkbox" id="terms" name="terms" value="terms">
+            <label for="terms"> I agree with the terms and conditions</label><br>
+            <input type="submit" value="Submit">
+        </form>
+            <table style="width: 200px;">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </table>
+    </div>
+    <footer>
+        <p>Arlie Gil</p>
+    </footer>
+</body>
+
+</html>
