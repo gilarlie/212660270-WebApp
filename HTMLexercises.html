@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         ul {
             list-style-type: none;
@@ -27,15 +28,16 @@
 </head>
 
 <body>
-    
+
     <!-- navbar -->
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#video">Video</a>
+        <li><a href="#aboutus">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
     <!-- content -->
-    <div class="container">
+    <div id="home">
         <img src="https://i.pinimg.com/736x/ee/79/67/ee7967f150668fa76e93855b62d60d43.jpg" alt="">
         <form action="/action_page.php">
             <label for="username">Username:</label><br>
@@ -50,23 +52,29 @@
             <label for="terms"> I agree with the terms and conditions</label><br>
             <input type="submit" value="Submit">
         </form>
-            <table style="width: 200px;">
-                <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>City</th>
-                </tr>
-                <tr>
-                    <td>John</td>
-                    <td>25</td>
-                    <td>New York</td>
-                </tr>
-                <tr>
-                    <td>Jane</td>
-                    <td>30</td>
-                    <td>Los Angeles</td>
-                </tr>
-            </table>
+    </div>
+
+    <div id="video">
+        <p>
+            Video courtesy of
+            <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+        </p>
+    </div>
+    <div id="aboutus">
+        <h3 class="about_us">ABOUT US</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quo dicta amet expedita est recusandae
+            quasi sit ut a repudiandae praesentium optio fugiat cumque error temporibus iste eius et, dolorem id
+            inventore ratione incidunt dolores vel soluta! Nam distinctio, dicta ipsum provident harum magnam, et omnis
+            voluptate vitae nesciunt ipsam.</p>
+    </div>
+
+    <div id="contact">
+        <ul>
+            <li>Email: arliegil@gmail.com</li>
+            <li>Phone: 0975-441-5987</li>
+            <li>Facebook: Arlie Gil</li>
+            <li>Twitter: Arleeeng</li>
+        </ul>
     </div>
     <footer>
         <p>Arlie Gil</p>
