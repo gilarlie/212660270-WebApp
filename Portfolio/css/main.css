@@ -1311,7 +1311,7 @@ header .logo a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../images/lavenderbackground.jpg) no-repeat center;
+    background: url(../images/lavenderprofile.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     filter: blur(2px); /* Adjust blur intensity as needed */
@@ -2116,7 +2116,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg1.jpg) no-repeat center;
+	background: #313131 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
